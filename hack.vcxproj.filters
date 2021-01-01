@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{1bfbec00-3fa1-403e-ba6c-8d2679207f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{0516198c-5d36-4ad4-a6af-b5c94c8b8c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{25f5e91c-7df7-423b-ad9e-f0685d5a2153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{59b91d44-d903-4a56-abc5-bc2cc0d94676}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="bass">
+      <UniqueIdentifier>{276d8796-b980-40bd-b26f-cacc5155d820}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="autoroute.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="idhook.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="offset.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="soundesp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="usermsg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="strafe.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\stb_image_aug.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\image_helper.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\image_DXT.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\soil.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="snapshot.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="vector\QAngle.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="vector\Vector.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\parsemsg.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\trace.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\stringfinder.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="norecoil.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="nospread.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\textures.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="skins.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="studiomodelrender.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="fov.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="crosshair.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="tracegrenade.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="flash.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="studio.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="modechange.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="guiwindow.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="antiaim.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="fakelag.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="chatinput.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="killsound.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="steamid.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="bass\dll.cpp">
+      <Filter>bass</Filter>
+    </ClCompile>
+    <ClCompile Include="bass\dll_image.cpp">
+      <Filter>bass</Filter>
+    </ClCompile>
+    <ClCompile Include="lightmap.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="wallskin.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="spawn.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="hitboxes.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="radar.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\gl3winit.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\gl3w.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="autoroute.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="idhook.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="soundesp.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="usermsg.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\glcorearb.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="strafe.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_image_aug.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\image_helper.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\image_DXT.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stbi_DDS_aug_c.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\soil.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="snapshot.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\QAngle.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\Vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\parsemsg.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\trace.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\stringfinder.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\defs.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\detours.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="norecoil.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="nospread.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\textures.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\keydefs.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="studiomodelrender.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="fov.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="crosshair.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="tracegrenade.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="flash.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="modechange.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="guiwindow.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="antiaim.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="fakelag.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="chatinput.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="killsound.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stbi_DDS_aug.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="steamid.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="bass\bass.h">
+      <Filter>bass</Filter>
+    </ClInclude>
+    <ClInclude Include="bass\dll.h">
+      <Filter>bass</Filter>
+    </ClInclude>
+    <ClInclude Include="lightmap.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="wallskin.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl2.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="spawn.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="hitboxes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\gl3winit.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\gl3w.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
